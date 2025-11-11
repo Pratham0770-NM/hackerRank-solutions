@@ -1,0 +1,14 @@
+def count_numbers(string,sub_string):
+    count = 0
+    for i in range(len(string)):
+
+        if (string[i:l_substring + i] == sub_string):
+            count += 1
+    return count
+
+string = input("Enter the string").strip()
+sub_string = input("Enter the sub string").strip()
+l_string = len(string)
+l_substring = len(sub_string)
+counted = count_numbers(string,sub_string)
+print(counted)
